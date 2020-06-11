@@ -16,6 +16,6 @@ public class DockerApplication {
     @GetMapping("docker")
     public String docker(String msg) {
         System.out.println("接口接收到:" + msg);
-        return "你输入的是" + msg;
+        return "阿里云构建规则已经配置你输入的是" + msg;
     }
 }
